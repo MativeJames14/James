@@ -1,0 +1,38 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(133,88,235,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: Verdana, Arial;
+    text-align: center;
+}
+ul {
+    font-size: 20px;
+    font-family: Impact;
+}
+img {
+    border-radius: 200px;
+    box-shadow: 5px 5px 20px black;
+    margin-top: 20px;
+}
+h1 {
+    color: white;
+    font-style: italic;
+}
+h2 {
+    font-family: Verdana;
+}
+mark {
+    background-color: yellowgreen;
+    color: black;
+}
+a {
+    font-size: 20px;
+    color: blue;
+    background-color: lightseagreen;
+    padding: 0.3em 0.5em 0.3em 0.5em;
+    border-radius: 20px;
+}
+a:hover {
+    background-color: darkblue;
+    color:lightseagreen;
+    transform: scale3d(1.05);
+}
